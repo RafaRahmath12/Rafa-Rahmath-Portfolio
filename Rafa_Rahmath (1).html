@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rafa Rahmath | Fresher Data Analyst Portfolio</title>
+<meta name="description" content="Rafa Rahmath is a fresher Data Analyst from Bengaluru with hands-on experience in Data Analytics and Data Science/ML internships, showcasing projects in SQL, Python, Power BI, Excel, Machine Learning, and Generative AI.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rafa Rahmath | Fresher Data Analyst Portfolio">
+<meta property="og:description" content="Rafa Rahmath is a fresher Data Analyst from Bengaluru with hands-on experience in Data Analytics and Data Science/ML internships, showcasing projects in SQL, Python, Power BI, Excel, Machine Learning, and Generative AI.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1626'/%3E%3Crect x='7' y='16' width='5' height='9' fill='%232dd4bf'/%3E%3Crect x='14' y='10' width='5' height='15' fill='%232dd4bf'/%3E%3Crect x='21' y='6' width='5' height='19' fill='%23f2b84b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1626;--navy2:#12233a;--ink:#16202e;--muted:#5a6678;--bg:#f4f6f9;--card:#fff;--line:#dde2ea;--accent:#0c8a80;--teal:#2dd4bf;--amber:#f2b84b;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'IBM Plex Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;overflow-x:hidden}
+h1,h2,h3,.big,.logo{font-family:'Space Grotesk',sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 1.25rem}
+section{padding:5rem 0}
+h2{font-size:2rem;letter-spacing:-.02em;margin-bottom:.5rem;display:flex;align-items:center;gap:.7rem}
+h2::before{content:"";width:6px;height:1.6rem;border-radius:3px;background:linear-gradient(var(--teal),var(--amber))}
+.lead{color:var(--muted);margin-bottom:2.2rem;max-width:60ch}
+.btn{display:inline-block;padding:.7rem 1.3rem;border-radius:10px;font-weight:600;font-size:.93rem;text-decoration:none;border:1px solid transparent;cursor:pointer;font-family:inherit;transition:transform .2s,background .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-p{background:var(--teal);color:#06231f}.btn-p:hover{background:#5eead4}
+.btn-o{border-color:#ffffff55;color:#fff}.btn-o:hover{border-color:#fff;background:#ffffff14}
+.btn-d{border-color:var(--ink);color:var(--ink);background:#fff}.btn-d:hover{background:var(--ink);color:#fff}
+/* nav */
+header{position:sticky;top:0;z-index:50;background:#0b1626ee;backdrop-filter:blur(10px);border-bottom:1px solid #223652}
+.nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{color:#fff;font-weight:700;text-decoration:none;font-size:1.1rem}
+.nav ul{display:flex;gap:1.4rem;list-style:none;align-items:center}
+.nav ul a{color:#b9c6d8;text-decoration:none;font-size:.92rem;padding:.3rem 0;border-bottom:2px solid transparent}
+.nav ul a:hover,.nav ul a.on{color:#fff;border-color:var(--teal)}
+.nav ul a.rb{border:1px solid var(--teal);color:var(--teal);padding:.35rem .9rem;border-radius:8px}
+.nav ul a.rb:hover{background:var(--teal);color:#06231f}
+.menu{display:none;background:none;border:1px solid #fff4;color:#fff;border-radius:8px;padding:.4rem .8rem;font:inherit;cursor:pointer}
+/* hero */
+.hero{background:radial-gradient(60% 80% at 85% 20%,#14385a66,transparent),var(--navy);color:#fff;padding:5.5rem 0 5rem;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff09 1px,transparent 1px),linear-gradient(90deg,#ffffff09 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(90deg,transparent,#000 70%)}
+.hg{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.5vw,4.4rem);line-height:1.02;letter-spacing:-.03em}
+.role{font-family:'Space Grotesk';font-size:1.5rem;color:var(--teal);font-weight:600;margin:.6rem 0 1.1rem}
+.skline{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;margin-bottom:1.2rem}
+.skline li{border:1px solid #ffffff30;border-radius:999px;padding:.25rem .85rem;font-size:.9rem;background:#ffffff0d}
+.sub{font-size:1.08rem;color:#cdd8e6;max-width:50ch;margin-bottom:1.8rem}
+.cta{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.3rem}
+.sl{display:flex;gap:1.4rem;font-size:.93rem}.sl a{color:#b9c6d8}.sl a:hover{color:#fff}
+.panel{background:#0f1f35;border:1px solid #27405f;border-radius:var(--r);box-shadow:0 30px 60px #0008;overflow:hidden}
+.panel .bar{display:flex;gap:6px;padding:.7rem .9rem;border-bottom:1px solid #27405f}
+.panel .bar i{width:10px;height:10px;border-radius:50%;background:#35506f}
+.panel svg{display:block;width:100%;height:auto}
+.gl{stroke:#27405f;stroke-width:1}
+.b{fill:var(--teal);opacity:.85;transform-box:fill-box;transform-origin:bottom;animation:grow .9s cubic-bezier(.2,.8,.2,1) both}
+.b.hi{fill:var(--amber);opacity:1}
+.ln{fill:none;stroke:#fff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:600;animation:draw 1.6s .5s ease both}
+.dot{fill:#fff;animation:fade .4s 1.9s both}
+@keyframes grow{from{transform:scaleY(0)}}@keyframes draw{from{stroke-dashoffset:600}}@keyframes fade{from{opacity:0}}
+/* about/skills */
+#about .t{max-width:66ch}#about p{margin-bottom:1rem;font-size:1.05rem}
+#skills{background:#fff;border-block:1px solid var(--line)}
+.chips{display:grid;grid-template-columns:repeat(5,1fr);gap:.9rem;list-style:none}
+.chips li{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:1.4rem 1rem;text-align:center;font-family:'Space Grotesk';font-weight:600;font-size:1.2rem;transition:transform .2s,border-color .2s,box-shadow .2s}
+.chips li:hover{transform:translateY(-4px);border-color:var(--teal);box-shadow:0 10px 24px #0b162614}
+.soft{margin-top:2.2rem}.soft h3{font-size:1rem;margin-bottom:.7rem;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none}
+.tags li{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:.3rem .9rem;font-size:.9rem}
+/* projects */
+.rail{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:-1rem 0 2.4rem;font-family:'Space Grotesk';font-weight:600}
+.rail span{background:var(--navy);color:#fff;border-radius:999px;padding:.3rem 1rem;font-size:.9rem}.rail b{color:var(--accent)}
+.proj{display:grid;grid-template-columns:1.2fr 1fr;gap:2.2rem;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:1.6rem;margin-bottom:2rem;box-shadow:0 14px 40px #0b162610}
+.proj.noimg{grid-template-columns:1fr}.proj.noimg .media,.proj.noimg .vp{display:none}
+.proj.noimg .gh{background:var(--navy);color:#fff;border-color:var(--navy)}.proj.noimg .gh:hover{background:var(--accent)}
+.shot{display:block;width:100%;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#e9edf3;cursor:zoom-in;padding:0;text-align:left;transition:box-shadow .3s}
+.shot:hover{box-shadow:0 18px 40px #0b162630}
+.shot .bar{display:flex;align-items:center;gap:6px;padding:.5rem .8rem;background:#eef1f6;border-bottom:1px solid var(--line);font-size:.75rem;color:var(--muted)}
+.shot .bar i{width:9px;height:9px;border-radius:50%;background:#c3cad6}.shot .bar span{margin-left:.5rem}
+.vw{aspect-ratio:16/10;overflow:hidden}
+.vw img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;transition:transform .5s}
+.shot:hover img{transform:scale(1.04)}
+.thumbs{display:flex;gap:.5rem;margin-top:.6rem}
+.thumbs button{width:72px;aspect-ratio:16/10;border:1px solid var(--line);border-radius:6px;overflow:hidden;padding:0;cursor:pointer}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.head{display:flex;align-items:baseline;gap:.9rem;margin-bottom:.3rem}
+.big{font-size:3.2rem;font-weight:700;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--accent)}
+.tag{font-weight:600;color:var(--accent);font-size:.92rem}
+.proj h3{font-size:1.55rem;line-height:1.2;letter-spacing:-.01em}
+.one{color:var(--muted);margin:.4rem 0 .9rem}
+.cols{display:grid;gap:.2rem 1.5rem;font-size:.94rem}
+.proj.noimg .cols{grid-template-columns:1fr 1fr}
+.cols h4{font-size:.95rem;margin:.7rem 0 .2rem}
+.cols ul{margin-left:1.1rem}
+.tools{display:flex;flex-wrap:wrap;gap:.4rem;margin:1.1rem 0;list-style:none}
+.tools li{background:var(--navy);color:#e6edf6;border-radius:6px;padding:.15rem .65rem;font-size:.82rem}
+.btns{display:flex;flex-wrap:wrap;gap:.6rem}
+/* edu/certs/contact */
+.edu{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--teal);border-radius:var(--r);padding:1.6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center}
+.edu h3{font-size:1.25rem}.edu p{color:var(--muted)}
+.cgpa{background:var(--navy);color:#fff;font-weight:600;border-radius:10px;padding:.5rem 1.1rem}
+#certifications{background:#fff;border-block:1px solid var(--line)}
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:.9rem;list-style:none}
+.certs li{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:1rem 1.2rem;display:flex;flex-direction:column;gap:.15rem}
+.certs b{font-size:.97rem;line-height:1.35}.certs small{color:var(--muted)}
+.certs a{margin-top:.4rem;color:var(--accent);font-size:.9rem;font-weight:600}
+#contact{background:var(--navy);color:#fff}
+#contact .lead{color:#b9c6d8}
+.cl{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.9rem;list-style:none}
+.cl a{display:block;padding:1.1rem 1.2rem;border:1px solid #27405f;border-radius:var(--r);background:var(--navy2);text-decoration:none;overflow-wrap:anywhere;transition:border-color .2s,transform .2s}
+.cl a:hover{border-color:var(--teal);transform:translateY(-3px)}
+.cl span{display:block;font-size:.82rem;color:#8ea2bb}
+footer{background:#070f1b;color:#8ea2bb;text-align:center;padding:1.8rem 1rem;font-size:.9rem}footer b{color:#fff}
+dialog{border:0;background:transparent;max-width:96vw;max-height:94vh;margin:auto}
+dialog::backdrop{background:#000d}
+dialog img{max-width:96vw;max-height:84vh;border-radius:8px;display:block;object-fit:contain}
+.lbnav{display:flex;gap:.5rem;justify-content:flex-end;margin-bottom:.5rem}
+@media(max-width:1000px){.nav ul{gap:.75rem}.nav ul a{font-size:.86rem}}
+@media(max-width:900px){.hg{grid-template-columns:1fr}.panel{display:none}.proj,.proj.noimg .cols{grid-template-columns:1fr}.chips{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:780px){
+ .menu{display:block}
+ .nav ul{display:none;position:absolute;top:66px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:flex-start;padding:1rem 1.25rem 1.4rem;gap:1rem;border-bottom:1px solid #223652}
+ .nav ul.open{display:flex}section{padding:3.4rem 0}.proj{padding:1.1rem}}
+@media(max-width:420px){.chips{grid-template-columns:repeat(2,1fr)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+ <a class="logo" href="#home">Rafa Rahmath</a>
+ <button class="menu" aria-expanded="false" aria-controls="links">Menu</button>
+ <ul id="links">
+  <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+  <li><a href="#education">Education</a></li><li><a href="#certifications">Certifications</a></li><li><a href="#experience">Experience</a></li><li><a href="#contact">Contact</a></li>
+ </ul>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap hg">
+ <div>
+  <h1>Rafa Rahmath</h1>
+  <p class="role">Fresher Data Analyst</p>
+  <ul class="skline"><li>SQL</li><li>Python</li><li>Power BI</li><li>Excel</li><li>GenAI</li></ul>
+  <p class="sub">Computer Science graduate with hands-on internship experience in Data Analytics and Data Science/ML, turning data into clear, actionable insights.</p>
+  <div class="cta"><a class="btn btn-p" href="#projects">View Projects</a></div>
+  <div class="sl"><a href="https://github.com/RafaRahmath12" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/rafa-rahmath-35793732b/" target="_blank" rel="noopener">LinkedIn</a></div>
+ </div>
+ <div class="panel" aria-hidden="true">
+  <div class="bar"><i></i><i></i><i></i></div>
+  <svg viewBox="0 0 420 300"><g class="gl"><line x1="20" y1="60" x2="400" y2="60"/><line x1="20" y1="120" x2="400" y2="120"/><line x1="20" y1="180" x2="400" y2="180"/><line x1="20" y1="240" x2="400" y2="240"/></g>
+   <rect class="b" x="36" y="170" width="34" height="70" rx="4" style="animation-delay:.1s"/><rect class="b" x="90" y="140" width="34" height="100" rx="4" style="animation-delay:.2s"/>
+   <rect class="b" x="144" y="150" width="34" height="90" rx="4" style="animation-delay:.3s"/><rect class="b" x="198" y="105" width="34" height="135" rx="4" style="animation-delay:.4s"/>
+   <rect class="b" x="252" y="120" width="34" height="120" rx="4" style="animation-delay:.5s"/><rect class="b hi" x="306" y="60" width="34" height="180" rx="4" style="animation-delay:.6s"/>
+   <rect class="b" x="360" y="85" width="34" height="155" rx="4" style="animation-delay:.7s"/>
+   <polyline class="ln" points="53,150 107,118 161,128 215,82 269,98 323,42 377,66"/><circle class="dot" cx="323" cy="42" r="5"/></svg>
+ </div>
+</div></section>
+
+<section id="about"><div class="wrap t">
+ <h2>About</h2>
+ <p>I'm a Computer Science graduate and fresher Data Analyst with hands-on internship experience in Data Analytics and in Data Science &amp; Machine Learning.</p>
+ <p>My projects use SQL, Python, Power BI, and Excel, covering data cleaning, EDA, dashboards, predictive modeling, and machine learning. I also use Generative AI to support data exploration and insight drafting.</p>
+ <p>I'm looking for an entry-level Data Analyst role where I can keep building on that foundation.</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+ <h2>Skills</h2><p class="lead">The tools I use in my projects and internships.</p>
+ <ul class="chips"><li>SQL</li><li>Python</li><li>Power BI</li><li>Excel</li><li>Generative AI</li></ul>
+ <div class="soft"><h3>Data Analytics</h3><ul class="tags"><li>Data Cleaning</li><li>Data Preparation</li><li>Data Extraction</li><li>Data Manipulation</li><li>EDA</li><li>Data Interpretation</li><li>Reporting</li></ul></div><div class="soft"><h3>Power BI / BI</h3><ul class="tags"><li>DAX</li><li>Dashboard Development</li><li>Business Intelligence</li></ul></div><div class="soft"><h3>Python</h3><ul class="tags"><li>Pandas</li><li>NumPy</li><li>Scikit-learn</li><li>Matplotlib</li><li>Seaborn</li></ul></div><div class="soft"><h3>Machine Learning</h3><ul class="tags"><li>K-Means Clustering</li><li>PCA</li><li>Regression</li><li>XGBoost</li><li>Predictive Modeling</li><li>Statistics</li></ul></div><div class="soft"><h3>Tools</h3><ul class="tags"><li>Git</li><li>GitHub</li><li>Jupyter Notebook</li><li>VS Code</li></ul></div><div class="soft"><h3>Professional skills</h3><ul class="tags"><li>Communication</li><li>Analytical Thinking</li><li>Problem Solving</li><li>Teamwork</li><li>Adaptability</li></ul></div>
+</div></section>
+
+<section id="projects" style="padding-bottom:3rem"><div class="wrap">
+ <h2>Featured Projects</h2><p class="lead">Three analytics projects across Python, SQL, Power BI, and Excel. Click a screenshot to enlarge it.</p>
+ <div class="rail"><span>Python</span><span>SQL</span><span>Power BI</span><span>Excel</span></div>
+ <div id="project-list"></div>
+ <noscript><p><a href="https://github.com/RafaRahmath12/RetailIQ">RetailIQ</a> · <a href="https://github.com/RafaRahmath12/Sales-Analytics-Dashboard">Sales Analytics Dashboard</a> · <a href="https://github.com/RafaRahmath12/Bike-Sales-Excel-Dashboard">Bike Sales Analytics Dashboard</a></p></noscript>
+</div></section>
+
+<section id="education" style="padding-top:2rem"><div class="wrap">
+ <h2>Education</h2>
+ <div class="edu"><div><h3>B.E. Computer Science Engineering</h3><p>HKBK College of Engineering</p><p>Bengaluru, Karnataka, India</p></div><span class="cgpa">CGPA: 7.35</span></div>
+</div></section>
+
+<section id="certifications"><div class="wrap">
+ <h2>Certifications &amp; Achievements</h2><p class="lead">My latest certificates and achievements are kept in a GitHub repository. Open any certificate below, or browse the full collection.</p>
+ <ul class="certs">
+  <li><b>Data Visualisation: Empowering Business with Effective Insights</b><small>Tata Group, Forage · November 2024</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/TATA%20Data%20Visualization%20cert.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+  <li><b>GenAI Powered Data Analytics Simulation</b><small>Tata Group, Forage · July 2025</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/TATA%20GENAI%20Powered%20Data%20Analysis%20job%20simulation%20cert.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+  <li><b>Data Science Job Simulation</b><small>British Airways, Forage · July 2025</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/BRITISH%20AIRWAYS%20Data%20SCI%20Job%20Simulation%20cert.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+  <li><b>Data Analyst 101</b><small>Simplilearn, powered by Microsoft · August 2025</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/Data%20Analysis%20basics%20Cert%20from%20Simply%20learn.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+  <li><b>Generative AI Mastermind</b><small>Outskill</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/OUTSKILL%20GENAI%20SKILLS%20CERT.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+  <li><b>3rd Place &amp; Special Prize — IEEE Girl Geeks Hackathon</b><small>Project: Woman Wealth Wave.ai · Co-created a financial literacy system featuring AI-driven spending analytics pipelines, layout designs, and interactive dashboard analytics for women entrepreneurs.</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/Hackathon%20IEEE%20cert.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+  <li><b>Hackathon Certificate</b><small>Vibe Code</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/Hackathon%20Vibe%20Code%20cert.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+  <li><b>3rd Place — National-Level AI Chatbot Hackathon</b><small>RV College of Engineering · Developed the core multi-language dataset translation mapping and server architecture using Python and FastAPI for an NLP chatbot backend supporting over 5 languages.</small><a href="https://github.com/RafaRahmath12/Certifications-and-Achievements/blob/main/Hackthon%20cert%20from%20Rv%20clg.jpeg" target="_blank" rel="noopener">View certificate</a></li>
+ </ul>
+ <div class="btns" style="margin-top:1.8rem"><a class="btn btn-d" href="https://github.com/RafaRahmath12/Certifications-and-Achievements" target="_blank" rel="noopener">View Certifications &amp; Achievements &rarr;</a></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+ <h2>Experience</h2><p class="lead">Two internships across data analytics and data science / machine learning.</p>
+  <article class="proj noimg"><div>
+   <div class="head"><span class="tag">Jul 2025 – Sep 2025</span></div>
+   <h3>Data Analyst Intern</h3><p class="one"><b>Codec Technologies</b></p><p class="one" style="margin-top:0">Worked with a team on preparing and analysing data for reporting and business recommendations.</p>
+   <div class="cols"><ul><li>Collaborated with team members to gather, clean, and prepare data from multiple sources using Python and Excel for downstream analysis and reporting.</li><li>Performed data interpretation and exploratory analysis to identify trends and support data-driven business recommendations.</li></ul></div>
+   <ul class="tools"><li>Python</li><li>Excel</li><li>Data Cleaning</li><li>Data Preparation</li><li>Exploratory Data Analysis</li><li>Data Interpretation</li><li>Reporting</li></ul>
+  </div></article>
+  <article class="proj noimg"><div>
+   <div class="head"><span class="tag">Feb 2026 – May 2026</span></div>
+   <h3>Data Science &amp; ML Intern</h3><p class="one"><b>IIMSTC / VTU</b></p><p class="one" style="margin-top:0">Built machine learning projects, including a recommendation platform and SDG-aligned predictive models.</p>
+   <div class="cols"><ul><li>Built and deployed <b>Fityntra</b>, an adaptive ML-based fitness and diet recommendation platform using Python, Scikit-learn, and FastAPI.</li><li>Developed SDG-aligned predictive models for <b>Ocean Acidity Classification</b> and <b>Life Expectancy Regression</b> using XGBoost and regression techniques.</li><li>Achieved up to <b>99.3% Macro F1 score</b> in the predictive modeling work.</li></ul></div>
+   <ul class="tools"><li>Python</li><li>Scikit-learn</li><li>FastAPI</li><li>XGBoost</li><li>Regression</li><li>Machine Learning</li><li>Predictive Modeling</li></ul>
+  </div></article>
+ <div class="btns"><a class="btn btn-d" href="https://github.com/RafaRahmath12/Internship-certifications" target="_blank" rel="noopener">View Internship Certificates &amp; Documents &rarr;</a></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <h2>Let's Connect</h2>
+ <p class="lead">I'm actively looking for entry-level Data Analyst opportunities where I can apply my analytical skills and contribute to data-driven decision making.</p>
+ <ul class="cl">
+  <li><a href="mailto:rafarhmath729@gmail.com"><span>Email</span>rafarhmath729@gmail.com</a></li>
+  <li><a href="https://www.linkedin.com/in/rafa-rahmath-35793732b/" target="_blank" rel="noopener"><span>LinkedIn</span>rafa-rahmath</a></li>
+  <li><a href="https://github.com/RafaRahmath12" target="_blank" rel="noopener"><span>GitHub</span>RafaRahmath12</a></li>
+  <li><a href="tel:+918884284571"><span>Phone</span>+91 88842 84571</a></li>
+ </ul>
+</div></section>
+</main>
+
+<footer><b>Rafa Rahmath</b> · Fresher Data Analyst · Bengaluru, India<br>© 2026 Rafa Rahmath</footer>
+
+<dialog id="lb" aria-label="Project screenshot viewer">
+ <div class="lbnav"><button class="btn btn-o" id="lbp" aria-label="Previous screenshot">Prev</button><button class="btn btn-o" id="lbn" aria-label="Next screenshot">Next</button><button class="btn btn-p" id="lbx">Close</button></div>
+ <img id="lbi" alt="">
+</dialog>
+
+<script>
+/* Edit this array to update projects. A project with no "images" entry renders as a clean card
+   (description, tools, GitHub button) with no screenshot area. To add a screenshot, use a verified
+   raw URL: https://raw.githubusercontent.com/RafaRahmath12/<repo>/<branch>/<path> */
+const projects=[
+ {n:"01",tag:"Python · SQL · Power BI",title:"RetailIQ — Customer Shopping Behavior Analysis",repo:"https://github.com/RafaRahmath12/RetailIQ",
+  summary:"An end-to-end data analytics project analysing customer shopping behavior with Python, SQL, and Power BI.",
+  images:[{src:"https://raw.githubusercontent.com/RafaRahmath12/RetailIQ/main/Retail.iq.png",alt:"RetailIQ Power BI dashboard preview"}],
+  did:["Analysed customer demographics and purchasing patterns","Reviewed product performance, discounts, and subscriptions","Cleaned data and ran EDA in Python (Pandas, Jupyter Notebook)","Wrote SQL queries for business analysis","Built an interactive Power BI dashboard"],
+  outLabel:"Key outcomes",
+  insights:["Identified important customer segments","Analysed product and category performance","Studied customer spending and purchase patterns","Analysed discount and subscription behavior"],
+  tools:["Python","SQL","Power BI","Pandas","Jupyter Notebook","Generative AI"]},
+ {n:"02",tag:"Power BI",title:"Sales Analytics Dashboard",repo:"https://github.com/RafaRahmath12/Sales-Analytics-Dashboard",
+  summary:"An interactive Power BI dashboard analysing about $574K in revenue.",
+  did:["Analysed revenue and sales performance","Tracked KPIs and order trends over time","Analysed customers and demographics","Built interactive filters for exploration"],
+  insights:["Revenue totals about $574K across the dataset","Revenue, customers and orders can be read together in one view"],
+  tools:["Power BI","Excel","Data Analytics"]},
+ {n:"03",tag:"Excel",title:"Bike Sales Analytics Dashboard",repo:"https://github.com/RafaRahmath12/Bike-Sales-Excel-Dashboard",
+  summary:"An Excel dashboard exploring who buys bikes, with slicers for filtering.",
+  did:["Analysed bike purchases by customer demographics","Compared income and commute distance","Built pivot tables and pivot charts","Added slicers for interactive filtering"],
+  insights:["Purchase patterns can be compared across demographic groups","Commute distance and income can be explored alongside purchases"],
+  tools:["Excel","Pivot Tables","Pivot Charts","Slicers"]}
+];
+const li=a=>a.map(x=>`<li>${x}</li>`).join('');
+const list=document.getElementById('project-list');
+list.innerHTML=projects.map((p,i)=>{
+ const has=p.images&&p.images.length;
+ return `
+<article class="proj${has?'':' noimg'}" id="p${i}">
+ ${has?`<div class="media">
+  <button class="shot" data-p="${i}" data-i="0" aria-label="Enlarge ${p.title} screenshot">
+   <div class="bar"><i></i><i></i><i></i><span>${p.title}</span></div>
+   <div class="vw"><img loading="lazy" src="${p.images[0].src}" alt="${p.images[0].alt}"></div>
+  </button>
+  ${p.images.length>1?`<div class="thumbs">${p.images.map((m,j)=>`<button data-p="${i}" data-i="${j}" aria-label="Open screenshot ${j+1}"><img loading="lazy" src="${m.src}" alt="${m.alt}"></button>`).join('')}</div>`:''}
+ </div>`:''}
+ <div>
+  <div class="head"><span class="big">${p.n}</span><span class="tag">${p.tag}</span></div>
+  <h3>${p.title}</h3><p class="one">${p.summary}</p>
+  <div class="cols"><div><h4>What I did</h4><ul>${li(p.did)}</ul></div><div><h4>${p.outLabel||'Key insights'}</h4><ul>${li(p.insights)}</ul></div></div>
+  <ul class="tools">${li(p.tools)}</ul>
+  <div class="btns">${has?`<button class="btn btn-p vp" data-p="${i}" data-i="0">View Project</button>`:''}<a class="btn btn-d gh" href="${p.repo}" target="_blank" rel="noopener">View on GitHub &rarr;</a></div>
+ </div>
+</article>`}).join('');
+/* Missing screenshot: remove the image area entirely, no error text */
+list.querySelectorAll('.shot img').forEach(x=>{
+ const drop=()=>x.closest('.proj').classList.add('noimg');
+ x.addEventListener('error',drop);
+ if(x.complete&&x.naturalWidth===0)drop();
+});
+const m=document.querySelector('.menu'),l=document.getElementById('links');
+m.onclick=()=>{const o=l.classList.toggle('open');m.setAttribute('aria-expanded',o)};
+l.addEventListener('click',e=>{if(e.target.tagName==='A'){l.classList.remove('open');m.setAttribute('aria-expanded',false)}});
+const d=document.getElementById('lb'),im=document.getElementById('lbi');let cp=0,ci=0;
+function show(){const g=projects[cp].images;ci=(ci+g.length)%g.length;im.src=g[ci].src;im.alt=g[ci].alt;
+ document.getElementById('lbp').hidden=document.getElementById('lbn').hidden=g.length<2}
+list.addEventListener('click',e=>{const b=e.target.closest('[data-p]');if(!b)return;cp=+b.dataset.p;ci=+b.dataset.i;show();d.showModal()});
+document.getElementById('lbp').onclick=()=>{ci--;show()};
+document.getElementById('lbn').onclick=()=>{ci++;show()};
+document.getElementById('lbx').onclick=()=>d.close();
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+d.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){ci--;show()}if(e.key==='ArrowRight'){ci++;show()}});
+/* highlight current section in nav */
+const links=[...l.querySelectorAll('a:not(.rb)')];
+new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'})
+ .observe&&['home','about','skills','projects','education','certifications','experience','contact'].forEach(id=>{
+  const o=window._o=window._o||new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
+  o.observe(document.getElementById(id))});
+</script>
+</body>
+</html>
